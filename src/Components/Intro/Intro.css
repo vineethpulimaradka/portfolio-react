@@ -71,8 +71,8 @@
 }
 .i-right>:nth-child(3){
     transform:scale(0.19);
-    left:-140%;
-    top:-190%;
+    left:-135%;
+    top:-185%;
 }
 .i-right>:nth-child(4){
     transform: scale(0.62);
