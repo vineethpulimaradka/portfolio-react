@@ -2,10 +2,11 @@ import React, { useContext }  from 'react'
 import "./Portfolio.css"; 
 import { Swiper, SwiperSlide } from "swiper/react"
 import "swiper/css";
-import Sidebar from "../../img/sidebar.png";
-import Ecommerce from "../../img/ecommerce.png";
-import HOC from "../../img/hoc.png";
-import MusicApp from "../../img/musicapp.png";
+import Sidebar from "../../img/page1.png";
+import Ecommerce from "../../img/weather.png";
+import HOC from "../../img/weather1.png";
+import MusicApp from "../../img/portfolio1.png";
+import chatgpt from "../../img/chatbot.png";
 import { themeContext } from "../../Context";
 
 const Portfolio = () => {
@@ -26,16 +27,19 @@ const Portfolio = () => {
         
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          <img src={Sidebar} alt="" height={220}/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          <img src={Ecommerce} alt="" height={210}/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          <img src={MusicApp} alt="" height={210}/>
         </SwiperSlide>
         <SwiperSlide>
-          <img src={HOC} alt="" />
+          <img src={HOC} alt="" height={210}/>
+        </SwiperSlide>
+        <SwiperSlide>
+          <img src={chatgpt} alt="" height={210}  />
         </SwiperSlide>
       </Swiper>
     </div>
